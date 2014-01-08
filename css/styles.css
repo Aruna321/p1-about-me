@@ -2,17 +2,28 @@ body {
 	background: orange;
 	font-family: arial;
 }
+/*Navigation*/
+a {
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+}
 
 img {
 	width: 300px;
 }
 
+/*containers*/
 #leftcol {
 	background: green;
+	float: left;
+	width: 400px;
 }
 
 #rightcol {
 	background: blue;
+	float: right;
+	width: 400px;
 }
 
 .round {
