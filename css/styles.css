@@ -1,35 +1,110 @@
 body {
-	background: orange;
-	font-family: arial;
+	background: url(http://intergratedtechnology.com/wp-content/uploads/2013/11/background-website-texturedownload-original-resolution-of-high-def-web-background-texture-xflpgboo.jpg);
+	font-family: arial; /*use google font here*/
 }
+h1{
+	background: url(http://6269-9001.zippykid.netdna-cdn.com/wp-content/uploads/2013/09/Moving-Fire-Wallpaper.jpg) bottom;
+	color: #ff8000;
+	font-family: 'Amarante';
+	border: 4px solid gray;
+}
+
 /*Navigation*/
 a {
 	font-size: 24px;
-	color: white;
+	background: #423a42;
+  	color: #cccccc;
+  	font-family: Helvetica;
+  	font-weight: 100px;
+  	border-radius: 10px 40px 10px 40px;
+  	text-align: center;
+  	height: 100px;
+  	line-height: 100px;
+  	width: 100px;
+  	box-shadow: 7px 7px 0 #AA0000;
 	text-decoration: none;
+	display: block;
+	position: absolute;
 }
 
-img {
-	width: 300px;
+ul{
+	list-style-type: none;
+	display: inline;
+}
+li{
+	display: inline;
 }
 
-/*containers*/
-#leftcol {
-	background: green;
-	float: left;
-	width: 400px;
+/*navigation buttons*/
+.hom{
+	/*set each button to flow together better shape*/
+	
+}
+.res{
+	left: 158px;
+}
+.port{
+	left: 305px;
 }
 
-#rightcol {
-	background: blue;
-	float: right;
-	width: 400px;
+a:active, :hover{
+	color: red;
 }
 
-.round {
-	border-radius: 40px;
+
+/*index image*/
+.image_main{
+	/*float:right;*/
+	width: 50%;
+	position: absolute;
+	/*border: 4px solid gray;*/
+	margin-top: 20px;
+	left: 440px;
 }
 
-.shadow {
-	box-shadow: 10px 10px 10px 10px yellow;
+img{
+	width: 696px;
+	/*height: 470px;*/
+	/*border gap on bottom of index image*/
+	border: 4px solid gray;
+	border-radius: 0px 40px 10px 40px;
+	box-shadow: 7px 7px 0 #AA0000;
+}
+
+
+.intro{
+	display: block;
+	color: black;
+	position: absolute;
+	top: 250px;
+	left: 158px;
+	background: #AA0000;
+	padding: 0 0px 0 17px;
+	border-radius: 10px 40px 10px 40px;
+}
+
+.life{
+	background: #AA0000;
+	border-radius: 0px 40px 10px 40px;
+	border: 4px solid gray;
+	margin-top: 20px;
+	padding: 0 5px 0 15px;
+	color: black;
+}
+
+p:hover{
+	color: black;
+}
+
+h3{
+	width: 120px;
+	border: double gray;
+}
+
+.images{
+	margin-top: 20px;
+}
+
+.show{
+	margin-bottom: 20px;
 }
